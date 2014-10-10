@@ -1,0 +1,156 @@
+<div class="sound">
+	<div class="sound-view sound-map sound-secondary">
+
+		<div class="sound-mapContainer js-ctrl" scp-ctrl="Map"></div>
+
+		<div class="sound-map-controls">
+			<div class="sound-map-control sound-map-control--locator">
+				<svg width="30px" height="30px">
+					<rect fill="none" stroke-width="1" stroke="#b59e5c" x="0.5" y="0.5" width="29" height="29"></rect>
+					<path d="M10,15.295L20,10 14.7,20 14.114,15.884 10,15.295" fill="#fff"></path>
+				</svg>
+			</div>
+
+			<div class="sound-map-control sound-map-control--in">
+				<svg width="30px" height="30px">
+					<rect fill="none" stroke-width="1" stroke="#b59e5c" x="0.5" y="0.5" width="29" height="29"></rect>
+					<rect fill="#fff" stroke="none" x="10" y="14" width="11" height="1"></rect>
+					<rect fill="#fff" stroke="none" x="15" y="9" width="1" height="11"></rect>
+
+				</svg>
+			</div>
+			<div class="sound-map-control sound-map-control--out">
+				<svg width="30px" height="30px">
+					<rect fill="none" stroke-width="1" stroke="#b59e5c" x="0.5" y="0.5" width="29" height="29"></rect>
+					<rect fill="#fff" stroke="none" x="10" y="14" width="11" height="1"></rect>
+				</svg>
+			</div>
+		</div>
+
+		<svg class="sound-arrow sound-arrow--left js-ctrl" scp-ctrl="SkipArrow" width="30" height="58">
+			<path class="sound-arrow-stroke" stroke-width="1.5" fill="none" stroke="#fff" d="M30,0L0,29 30,58"></path>
+			<path class="sound-arrow-stroke sound-arrow-stroke--hover" stroke-width="1.5" fill="none" stroke="#b59e5c" d="M30,0L0,29 30,58"></path>
+		</svg>
+
+		<svg class="sound-arrow sound-arrow--right js-ctrl" scp-ctrl="SkipArrow" width="30" height="58">
+			<path class="sound-arrow-stroke" stroke-width="1.5" fill="none" stroke="#fff" d="M0,0L30,29 0,58"></path>
+			<path class="sound-arrow-stroke sound-arrow-stroke--hover" stroke-width="1.5" fill="none" stroke="#b59e5c" d="M0,0L30,29 0,58"></path>
+		</svg>
+
+		<div class="sound-playPause js-scrubEl box js-ctrl" scp-ctrl="PlayPause">
+			<svg width="50px" height="50px">
+				<rect fill="none" stroke="#b59e5c" x="0.5" y="0.5" width="49" height="49"></rect>
+				<rect class="sound-playPause-pause" fill="#fff" y="19" x="20" width="3" height="12"></rect>
+				<rect class="sound-playPause-pause" fill="#fff" y="19" x="27" width="3" height="12"></rect>
+				<path class="sound-playPause-play" fill="#fff" d="M20,19L30,25.5 20,31 20,19"></path>
+			</svg>
+		</div>
+
+		<div class="sound-timer js-scrubEl js-ctrl" scp-ctrl="TrackTime">
+
+			<div class="sound-timer-minutes tk-ambroise-firmin-std">
+			</div>
+			<div class="sound-timer-seconds">
+			</div>
+		</div>
+
+		<div class="sound-view-hitfield"></div>
+
+		<div class="sound-box">
+			<div class="sound-scrub js-ctrl js-scrubEl" scp-ctrl="ScrubBar">
+				<div class="scrub-hitfield js-scrubEl"></div>
+				<div class="scrub-loaded"></div>
+				<div class="scrub-progress"></div>
+			</div>
+			<div class="sound-info js-ctrl" scp-ctrl="Info">
+				<div class="info-container">
+					<div class="info-title tk-ambroise-firmin-std info-mask"><span class="js-copy"></span></div>
+					<div class="info-city info-mask"><span class="js-copy"></span></div>
+					<div class="info-bottom">
+						<div class="info-divider"></div>
+						<div class="info-artist">
+							Track By:<br>
+							<strong class="info-artist-name info-mask"><span class="js-copy"></span></strong>
+						</div>
+					</div>
+				</div>
+				<div class="info-track">
+					<div class="info-shape"></div>
+					<div class="info-number tk-ambroise-firmin-std"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="sound-view sound-panorama sound-primary">
+
+		<div class="sound-panoramaViewer is-grabbable js-ctrl" scp-ctrl="Panorama">
+		</div>
+
+		<svg class="sound-arrow sound-arrow--left js-ctrl" scp-ctrl="SkipArrow" width="30" height="58">
+			<path class="sound-arrow-stroke" stroke-width="1.5" fill="none" stroke="#fff" d="M30,0L0,29 30,58"></path>
+			<path class="sound-arrow-stroke sound-arrow-stroke--hover" stroke-width="1.5" fill="none" stroke="#b59e5c" d="M30,0L0,29 30,58"></path>
+		</svg>
+
+		<svg class="sound-arrow sound-arrow--right js-ctrl" scp-ctrl="SkipArrow" width="30" height="58">
+			<path class="sound-arrow-stroke" stroke-width="1.5" fill="none" stroke="#fff" d="M0,0L30,29 0,58"></path>
+			<path class="sound-arrow-stroke sound-arrow-stroke--hover" stroke-width="1.5" fill="none" stroke="#b59e5c" d="M0,0L30,29 0,58"></path>
+		</svg>
+
+		<div class="sound-playPause js-scrubEl box js-ctrl" scp-ctrl="PlayPause">
+			<svg width="50px" height="50px">
+				<rect fill="none" stroke="#b59e5c" x="0.5" y="0.5" width="49" height="49"></rect>
+				<rect class="sound-playPause-pause" fill="#fff" y="19" x="20" width="3" height="12"></rect>
+				<rect class="sound-playPause-pause" fill="#fff" y="19" x="27" width="3" height="12"></rect>
+				<path class="sound-playPause-play" fill="#fff" d="M20,19L30,25.5 20,31 20,19"></path>
+			</svg>
+		</div>
+
+
+		<div class="sound-timer js-scrubEl js-ctrl" scp-ctrl="TrackTime">
+
+			<div class="sound-timer-minutes tk-ambroise-firmin-std">
+			</div>
+			<div class="sound-timer-seconds">
+			</div>
+		</div>
+
+		<div class="sound-busula js-ctrl" scp-ctrl="Busula">
+			<svg class="sound-busula-viewPort" width="54px" height="54px">
+				<path fill="rgba(0,0,0,0.3)" d="M0,1.7C29,1.7,52.3,25,52.3,54C31.1,54,0,54,0,54S0,26.5,0,1.7z"></path>
+				<path fill="rgb(181,158,92)" d="M53,54h-3C50,25.9,28.1,4,0,4V1C29.8,1,53,24.2,53,54z"></path>
+			</svg>
+			<div class="sound-busula-letter sound-busula-letter--n"></div>
+			<div class="sound-busula-letter sound-busula-letter--e"></div>
+			<div class="sound-busula-letter sound-busula-letter--s"></div>
+			<div class="sound-busula-letter sound-busula-letter--w"></div>
+		</div>
+
+		<div class="sound-view-hitfield"></div>
+
+		<div class="sound-box">
+			<div class="sound-scrub js-ctrl js-scrubEl" scp-ctrl="ScrubBar">
+				<div class="scrub-hitfield js-scrubEl"></div>
+				<div class="scrub-loaded"></div>
+				<div class="scrub-progress"></div>
+			</div>
+			<div class="sound-info js-ctrl" scp-ctrl="Info">
+				<div class="info-container">
+					<div class="info-title tk-ambroise-firmin-std info-mask"><span class="js-copy"></span></div>
+					<div class="info-city info-mask"><span class="js-copy"></span></div>
+					<div class="info-bottom">
+						<div class="info-divider"></div>
+						<div class="info-artist">
+							Track By:<br>
+							<strong class="info-artist-name info-mask"><span class="js-copy"></span></strong>
+						</div>
+					</div>
+				</div>
+				<div class="info-track">
+					<div class="info-shape"></div>
+					<div class="info-number tk-ambroise-firmin-std"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
